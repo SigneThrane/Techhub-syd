@@ -1,0 +1,153 @@
+/*
+Theme: Techhub Syd
+Author: Anne Christine Petersen, Signe Thrane
+Description: Eksamensprojekt 2. semester
+Version 1.0 */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Quicksand:wght@300;400&display=swap');
+
+/* Farver:
+
+#14142C Mørk lilla
+#6AC3C7 tyrkis*/
+
+
+/*Forside og navigation*/
+#hero {
+    background-image: url('images/bg2Artboard-1');
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    height: 100%;
+    margin-bottom: 5rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    height: 60px;
+    flex-shrink: 0;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-around;
+    color: #6AC3C7;
+    
+}
+
+.container-fluid {
+    max-width: auto;
+
+}
+
+#hero h1 {
+    padding-top: 5%;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 2;
+}
+
+body::-webkit-thumb {
+    background: #14142C;
+}
+
+body::-webkit-scrollbar-track {
+    background: #BDEDE0;
+}
+
+nav {
+    /* background: rgb(187,219,209);
+    background: linear-gradient(90deg, rgba(187,219,209,1) 0%, rgba(126,120,214,1) 100%); */
+    background-color: #14142C;
+    height: 40%;
+}
+header {
+    flex-shrink: 0;
+    font-family: orbitron, sans-serif;
+    color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+font-style: normal;
+z-index: 999;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+a.nav-link{
+    display: flex;
+    align-items:stretch;
+    color: #6AC3C7;
+    font-weight: 1000;
+    font-size: 100%;
+    text-transform: uppercase;
+    padding-right: 10%;
+}
+
+a.nav-link:hover{
+    color: #989898;
+}
+
+                            /*kun for undersider*/
+/* 
+.header-container {
+height: 15vh;
+background-color: #BBDBD1;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+position: fixed;
+z-index: -1;
+} */
+
+
+
+.row {
+
+    margin:0;
+    padding: 0;
+}
+.adresse-felt {
+    width: 20px;
+
+}
+                               /*PORTFOLIO SIDE*/
+
+
+.portfolio {
+    margin:0%;
+    margin-top: 10%;
+    height: 100;
+    z-index: -999;
+}
+
+h1 {
+    z-index:-999;
+}
+
+                              /*FOOTER*/
+ footer {
+background-image: url('images/bg2Artboard-1.gif');
+width: auto;
+height: auto;
+margin-top: 20%;
+color: white;
+}
+
+.costumize-support {
+
+    z-index: -999;
+    background-color:  #BDEDE0;
+}
